@@ -1,3 +1,6 @@
+a{
+  color:white;
+}
 .main{
   font-family:'Myriad Pro';
   height:100vh;
@@ -14,6 +17,10 @@
   top:-20px;
   font-size:40px;
 }
+.lisa-icons>a{
+  margin-left:15px;
+  margin-right:15px;
+}
 .lisa-icons>i{
   margin-left:15px;
   margin-right:15px;
@@ -26,8 +33,15 @@
 }
 .down-arrow{
   position:relative;
+  top:-30px;
   font-size:40px;
   color:rgba(255,255,255,0.7);
+}
+.scroll-down{
+  font-size:13px;
+  font-style:italic;
+  position:relative;
+  top:30px;
 }
 .row .col{
   padding:0px;
@@ -60,6 +74,8 @@
 .about{
   padding-top:10%;
   padding-bottom:10%;
+  width:100%;
+  height:100vh;
 }
 h1{
   font-family: 'Playball', cursive;
