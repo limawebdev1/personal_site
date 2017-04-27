@@ -1,5 +1,32 @@
 body{
   height:100vh;
+  max-height:100vh;
   background: url('music.jpg');
   background-size: 100%;
+  color:white;
+  font-family:'Myriad Pro'
+}
+nav{
+  background-color:transparent;
+  box-shadow:none;
+}
+.title{
+  font-size:72px;
+  margin-left:7%;
+}
+.col.l4.right-align.links.valign{
+  padding-right:5%;
+}
+.links>i{
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+.musics{
+  padding-left:5%;
+  padding-right:5%;
+  height:90%;
+  overflow:scroll;
+}
+.tabs{
+  background-color:transparent;
 }

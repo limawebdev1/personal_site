@@ -6,6 +6,7 @@
   <title>LISA MA - Music</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
   <link rel="stylesheet" href="music.css">
   <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
@@ -13,8 +14,49 @@
 </head>
 
 <body>
-  <div class="row">
+  <nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html"><i class="fa fa-2x fa-home" aria-hidden="true"></i></a></li>
+        <li><a href="music.html"><i class="fa fa-2x fa-music" aria-hidden="true"></i></a></li>
+        <li><a href="collapsible.html"><i class="fa fa-2x fa-paint-brush" aria-hidden="true"></i></a></li>
+        <li><a href="badges.html"><i class="fa fa-2x fa-cogs" aria-hidden="true"></i></a></li>
+        <li><a href="collapsible.html"><i class="fa fa-2x fa-user-circle-o" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </nav><br>
+  <div class="wrapper">
 
+  </div>
+  <div class="row valign-wrapper">
+    <div class="col l8 valign">
+      <span class="title"><strong>music</strong></span>
+    </div>
+    <div class="col l4 right-align links valign">
+      <i class="fa fa-2x fa-soundcloud" aria-hidden="true"></i>
+      <i class="fa fa-2x fa-mixcloud" aria-hidden="true"></i>
+      <i class="fa fa-2x fa-youtube-play" aria-hidden="true"></i>
+    </div>
+  </div>
+  <div class="row musics">
+    <div class="col l5">
+      <ul class="tabs">
+        <li class="tab col l4"><a class="active" href="#test1">soundcloud</a></li>
+        <li class="tab col l4"><a href="#test2">youtube</a></li>
+        <li class="tab col l4"><a href="#test3">mixcloud</a></li>
+      </ul>
+    </div>
+    <div class="col l7"></div>
+    <div id="test1" class="beef col l12">
+      <iframe width="100%" height="166" style="background-color:transparent" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/298423096&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/275051326&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/272544933&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/263039656&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251933799&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243509125&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    </div>
+    <div id="test2" class="col beef l12">Test 2</div>
+    <div id="test3" class="col beef l12">Test 3</div>
   </div>
 </body>
 
