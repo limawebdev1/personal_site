@@ -1,0 +1,13 @@
+.nav-wrapper{
+  background-color:black;
+}
+.logo{
+  padding-left:4%;
+  padding-top:5%;
+  width:20%;
+}
+img{
+  width:100%;
+}
+.grid-item { width: 33.333%; padding:0.5%}
+/*.grid-item--width2 { width: 50%; }*/
